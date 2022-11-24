@@ -5,7 +5,7 @@ import "./styles.css";
 
 const MAP_WIDTH = 5;
 const MAP_HEIGHT = 5;
-const SHIP_COUNT = 1;
+const SHIP_COUNT = 8;
 
 const Square = (props) => {
   return (
