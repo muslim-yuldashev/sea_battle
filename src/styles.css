@@ -1,0 +1,113 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/dd/5e/80/dd5e8078af2d829bd0ca78f1b8c55c26.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cambria;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.button-newGame{
+  padding: .7em 1.5em;
+  border:0.1em solid #111;
+  margin:0 0.3em 0.3em 0;
+  border-radius: .5em;
+  font-weight:500;
+  color:#111;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.1);
+}
+.button{
+  padding: .5em 1.2em;
+  border:0.1em solid #111;
+  margin: .7em 0.3em .3em 1em;
+  border-radius: .5em;
+  font-weight:500;
+  color:#111;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.1);
+}
+.button:hover{
+  cursor: pointer;
+  background-color: #2d2c2c;
+  color: #fff;
+} .button-newGame:hover{
+  cursor: pointer;
+  background-color: #2d2c2c;
+  color: #fff;
+}
+input {
+  width: 220px;
+  background-color: #ffffff;
+  color: #111;
+  padding: .7em 1.2em;
+  margin: 8px .5em;
+  border: 1px solid #111;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input:hover {
+  background-color: #ffffff;
+  color: #111111;
+}
+
+  .text{
+    font-size: 36px;
+    font-weight: 700;
+    background-color: #ffffff;
+    border: 1px solid #111;
+    border-radius: .1em;
+    padding: 0 .1em;
+  }
+  .text2{
+    font-size: 24px;
+    font-weight: 700;
+
+  }
+  .text3{
+    margin: 3.5em;
+    font-size: 20px;
+    padding: .4em;
+    border: 1px solid #111;
+    border-radius: .5em;
+    background-color: white;
+    color: #111;
+  }
+  .text4{
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #111;
+    border-radius: 2em;
+    padding: 1em;
+  }
+  .margin{
+    margin-top: 1.5em;
+  }
+  .margin{
+    margin-left: 1em;
+  }
+
+
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  border: .8px solid black;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+}
